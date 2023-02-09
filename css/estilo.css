@@ -1,0 +1,147 @@
+
+
+    
+    
+    body{
+    font-family: taroma,arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Principal{
+    width: 1024px;
+    margin: 20px auto;
+
+}
+.header-top{
+    height:50px;
+    background:#162028;
+    position: relative;
+    
+
+}
+.logotipo{
+    margin: 5px 0 0 135px;
+}
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0 ;
+    padding: 13px;
+}
+.header-nav a{
+    color:#425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3 linear;
+}
+.portifolio{
+    padding: 50px 100px;
+    text-align: center;
+
+}
+.portifolio h1{
+    font-size: 36px;
+    color: #252525;
+     
+}
+.portifolio{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+c
+.about{
+    background-color: #003d52;
+    height: 500px;
+    color: white;
+    background-image: url(../assets/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position:right bottom ;
+}
+.about p{
+
+width: 800px;
+right:30px;
+font-size: 25px;
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: left;
+margin: auto;
+margin-top: 70px;
+
+}
+.about h2{
+text-transform: uppercase;
+font-size: 50px;
+font-weight: normal;
+margin-left: 32px;
+}
+#contatc{
+    margin: 50px 0 ;
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+.video{
+    margin: auto;
+
+}
+.rodape{
+    background:#0b171f ;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+
+
+}
+.header-nav a:hover{
+color:white
+
+}
+.gallery{
+
+    color: #555;
+    display: flex;
+    justify-content:space-around;
+    
+    }
+    
+    .gallery-card{
+        width: 32px;
+        text-align: center;
+        transform: translateX(-100px);
+    }
+    .gallery-title{
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        
+    
+    }
+
+
+
